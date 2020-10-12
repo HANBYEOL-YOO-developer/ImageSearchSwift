@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180CE1062531AA31005B9EB7 /* DaumImageSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CE1052531AA31005B9EB7 /* DaumImageSearchModel.swift */; };
+		18129AF12532D529007F3D6D /* ExtensionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18129AF02532D529007F3D6D /* ExtensionUIViewController.swift */; };
+		18129AF42532D969007F3D6D /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18129AF32532D969007F3D6D /* ExtensionString.swift */; };
+		18129AF92532E752007F3D6D /* ScaleHeightImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18129AF82532E752007F3D6D /* ScaleHeightImageView.swift */; };
+		1824B4C025307A370077A78C /* ExtensionUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824B4BF25307A370077A78C /* ExtensionUIImageView.swift */; };
+		1824B4C925318A920077A78C /* DetailImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824B4C825318A920077A78C /* DetailImageVC.swift */; };
+		189ADB3A2530599100BB2EED /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ADB392530599100BB2EED /* ImageCollectionViewCell.swift */; };
+		18B0DF2C2531DEC900BBA2E7 /* long.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0DF2B2531DEC900BBA2E7 /* long.png */; };
+		18B0DF2F2532B7F600BBA2E7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0DF2E2532B7F600BBA2E7 /* DataManager.swift */; };
 		18BE8407253034E100EDBCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE8406253034E100EDBCBE /* AppDelegate.swift */; };
 		18BE8409253034E100EDBCBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE8408253034E100EDBCBE /* SceneDelegate.swift */; };
 		18BE840B253034E100EDBCBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE840A253034E100EDBCBE /* ViewController.swift */; };
 		18BE840E253034E100EDBCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE840C253034E100EDBCBE /* Main.storyboard */; };
 		18BE8410253034E200EDBCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BE840F253034E200EDBCBE /* Assets.xcassets */; };
 		18BE8413253034E200EDBCBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE8411253034E200EDBCBE /* LaunchScreen.storyboard */; };
+		42A33968838E0F4E6BFD8A8A /* Pods_ImageSearchSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385995790D3626CB68DF3AD6 /* Pods_ImageSearchSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04777EF0050FC976CDD6A8BA /* Pods-ImageSearchSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSearchSwift.release.xcconfig"; path = "Target Support Files/Pods-ImageSearchSwift/Pods-ImageSearchSwift.release.xcconfig"; sourceTree = "<group>"; };
+		180CE1052531AA31005B9EB7 /* DaumImageSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaumImageSearchModel.swift; sourceTree = "<group>"; };
+		18129AF02532D529007F3D6D /* ExtensionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIViewController.swift; sourceTree = "<group>"; };
+		18129AF32532D969007F3D6D /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		18129AF82532E752007F3D6D /* ScaleHeightImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleHeightImageView.swift; sourceTree = "<group>"; };
+		1824B4BF25307A370077A78C /* ExtensionUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImageView.swift; sourceTree = "<group>"; };
+		1824B4C825318A920077A78C /* DetailImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageVC.swift; sourceTree = "<group>"; };
+		189ADB392530599100BB2EED /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		18B0DF2B2531DEC900BBA2E7 /* long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = long.png; sourceTree = "<group>"; };
+		18B0DF2E2532B7F600BBA2E7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		18BE8403253034E100EDBCBE /* ImageSearchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSearchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BE8406253034E100EDBCBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BE8408253034E100EDBCBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,8 @@
 		18BE840F253034E200EDBCBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BE8412253034E200EDBCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18BE8414253034E200EDBCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385995790D3626CB68DF3AD6 /* Pods_ImageSearchSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSearchSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28676DAEF336FB32625295E /* Pods-ImageSearchSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSearchSwift.debug.xcconfig"; path = "Target Support Files/Pods-ImageSearchSwift/Pods-ImageSearchSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A33968838E0F4E6BFD8A8A /* Pods_ImageSearchSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180CE1042531AA13005B9EB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				180CE1052531AA31005B9EB7 /* DaumImageSearchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180CE10E2531D202005B9EB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1824B4BF25307A370077A78C /* ExtensionUIImageView.swift */,
+				18129AF02532D529007F3D6D /* ExtensionUIViewController.swift */,
+				18129AF32532D969007F3D6D /* ExtensionString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		180CE10F2531D261005B9EB7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18B0DF2B2531DEC900BBA2E7 /* long.png */,
+				18BE840C253034E100EDBCBE /* Main.storyboard */,
+				18BE840A253034E100EDBCBE /* ViewController.swift */,
+				189ADB392530599100BB2EED /* ImageCollectionViewCell.swift */,
+				1824B4C825318A920077A78C /* DetailImageVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18129AF62532E712007F3D6D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18129AF72532E73D007F3D6D /* Classes */,
+				180CE10E2531D202005B9EB7 /* Extensions */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18129AF72532E73D007F3D6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18129AF82532E752007F3D6D /* ScaleHeightImageView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18B0DF312532B89100BBA2E7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				18B0DF2E2532B7F600BBA2E7 /* DataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		18BE83FA253034E100EDBCBE = {
 			isa = PBXGroup;
 			children = (
 				18BE8405253034E100EDBCBE /* ImageSearchSwift */,
 				18BE8404253034E100EDBCBE /* Products */,
+				2CFFFFFA0056C0A2387C65AF /* Pods */,
+				A2197B8713FED2A9CCA16DCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +136,34 @@
 		18BE8405253034E100EDBCBE /* ImageSearchSwift */ = {
 			isa = PBXGroup;
 			children = (
+				18129AF62532E712007F3D6D /* Helper */,
+				18B0DF312532B89100BBA2E7 /* Manager */,
+				180CE1042531AA13005B9EB7 /* Model */,
+				180CE10F2531D261005B9EB7 /* Main */,
 				18BE8406253034E100EDBCBE /* AppDelegate.swift */,
 				18BE8408253034E100EDBCBE /* SceneDelegate.swift */,
-				18BE840A253034E100EDBCBE /* ViewController.swift */,
-				18BE840C253034E100EDBCBE /* Main.storyboard */,
 				18BE840F253034E200EDBCBE /* Assets.xcassets */,
 				18BE8411253034E200EDBCBE /* LaunchScreen.storyboard */,
 				18BE8414253034E200EDBCBE /* Info.plist */,
 			);
 			path = ImageSearchSwift;
+			sourceTree = "<group>";
+		};
+		2CFFFFFA0056C0A2387C65AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A28676DAEF336FB32625295E /* Pods-ImageSearchSwift.debug.xcconfig */,
+				04777EF0050FC976CDD6A8BA /* Pods-ImageSearchSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2197B8713FED2A9CCA16DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				385995790D3626CB68DF3AD6 /* Pods_ImageSearchSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18BE8417253034E200EDBCBE /* Build configuration list for PBXNativeTarget "ImageSearchSwift" */;
 			buildPhases = (
+				0D352252EE8FD131BDBCE78C /* [CP] Check Pods Manifest.lock */,
 				18BE83FF253034E100EDBCBE /* Sources */,
 				18BE8400253034E100EDBCBE /* Frameworks */,
 				18BE8401253034E100EDBCBE /* Resources */,
+				339A75A353C88101FEFBD4E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +228,69 @@
 				18BE8413253034E200EDBCBE /* LaunchScreen.storyboard in Resources */,
 				18BE8410253034E200EDBCBE /* Assets.xcassets in Resources */,
 				18BE840E253034E100EDBCBE /* Main.storyboard in Resources */,
+				18B0DF2C2531DEC900BBA2E7 /* long.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D352252EE8FD131BDBCE78C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageSearchSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		339A75A353C88101FEFBD4E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageSearchSwift/Pods-ImageSearchSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageSearchSwift/Pods-ImageSearchSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageSearchSwift/Pods-ImageSearchSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18BE83FF253034E100EDBCBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18129AF42532D969007F3D6D /* ExtensionString.swift in Sources */,
+				1824B4C025307A370077A78C /* ExtensionUIImageView.swift in Sources */,
+				18129AF92532E752007F3D6D /* ScaleHeightImageView.swift in Sources */,
+				18B0DF2F2532B7F600BBA2E7 /* DataManager.swift in Sources */,
+				180CE1062531AA31005B9EB7 /* DaumImageSearchModel.swift in Sources */,
+				18129AF12532D529007F3D6D /* ExtensionUIViewController.swift in Sources */,
+				1824B4C925318A920077A78C /* DetailImageVC.swift in Sources */,
 				18BE840B253034E100EDBCBE /* ViewController.swift in Sources */,
 				18BE8407253034E100EDBCBE /* AppDelegate.swift in Sources */,
+				189ADB3A2530599100BB2EED /* ImageCollectionViewCell.swift in Sources */,
 				18BE8409253034E100EDBCBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +435,7 @@
 		};
 		18BE8418253034E200EDBCBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28676DAEF336FB32625295E /* Pods-ImageSearchSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +449,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.instapay.ImageSearchSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18BE8419253034E200EDBCBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04777EF0050FC976CDD6A8BA /* Pods-ImageSearchSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.instapay.ImageSearchSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
