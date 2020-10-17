@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.becomeFirstResponder()
+        print("searchBar Height: \(searchBar.frame.height)")
     }
     
     func requestImage(query: String, page: Int) {
@@ -131,26 +132,14 @@ extension ViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) { // scroll 끝까지 내렸을 때 동작
         if collectionView.contentOffset.y >= (collectionView.contentSize.height - collectionView.frame.size.height) {
             switch shared.imageDatas.documents.count - shared.imageCount {
-            case 140...:
-                shared.imageCount += 30
-            case 60...139:
-                shared.imageCount += 30
-                if !shared.imageDatas.meta.is_end {     // data fetch (버퍼를 두기 위해 미리 불러옴)
-                    shared.currentPage += 1
-                    requestImage(query: textForSearch, page: shared.currentPage)
-                }
-            case 31...59:
+            case 31...:
                 shared.imageCount += 30
                 if !shared.imageDatas.meta.is_end {     // data fetch
                     shared.currentPage += 1
                     requestImage(query: textForSearch, page: shared.currentPage)
                 }
-            case 1...30:
-                shared.imageCount = shared.imageDatas.documents.count
-            case 0:
-                return
             default:
-                print("imageCount error occured")
+                shared.imageCount = shared.imageDatas.documents.count
             }
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
